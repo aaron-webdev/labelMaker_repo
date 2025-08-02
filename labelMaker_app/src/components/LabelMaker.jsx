@@ -28,16 +28,22 @@ export default function LabelMaker()
         <div id='salerInfoSection'>
           <Row>
             <Col>
-            <b>$X.xx</b>
+            <b>Wholesaler.product.price</b>
             </Col>
             <Col>
-            <b>Lot#: ####</b>
+            <b>Lot#: ######</b>
             </Col>
           </Row>
           <p>
-            <b>Product.productCode</b>
+            <b>Wholesaler.product.productCode</b>
           </p>
         </div>
+      </section>
+
+
+      <h5>Darien's Section</h5>
+      <section>
+        
       </section>
     </>
     )

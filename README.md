@@ -6,6 +6,10 @@
 - Create labels for BTD whole sale
 - Object based Product : Ingredient pairs
     - product and product.ingred
-- Formats labels for printing 4x2 sticker labels
+- Formats labels for printing 4h2w sticker labels
 - Auto fill 'Made On' date as well as 'Enjoy By' date 4 days later
 - % based div sizes to auto adjust based on text content
+- Dropdown menus for Products and Wholesalers to autofill label info
+
+#### Future Implementations
+- Post info to a document for recall procedure and product tracking
