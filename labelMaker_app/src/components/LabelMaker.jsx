@@ -1,9 +1,12 @@
 import {Col, Row} from 'react-bootstrap';
+import {useState} from 'react';
 
 
 
 export default function LabelMaker()
 {
+  const [productName, setProductName] = useState('Product Name');
+  const [destination, setDestination] = useState('Destination')
 
 
 
