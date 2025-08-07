@@ -1,4 +1,4 @@
-import {Col, Row} from 'react-bootstrap';
+import {Col, Row, Dropdown} from 'react-bootstrap';
 import {useState} from 'react';
 
 
@@ -46,7 +46,15 @@ export default function LabelMaker()
 
       <h5>Darien's Section</h5>
       <section>
-        
+        <h3>Select a product:</h3>
+        <Dropdown>
+          <Dropdown.Toggle variant='success' id='productMenu'>
+            Select a product
+          </Dropdown.Toggle>
+          <Dropdown.Menu>
+            <Dropdown.Item href='set on on click calls to set the value of productName onClick(setProductName(New Product))'>Product 1</Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
       </section>
     </>
     )
