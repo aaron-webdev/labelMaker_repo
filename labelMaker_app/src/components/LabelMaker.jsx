@@ -1,19 +1,18 @@
-import {Col, Row, Dropdown} from 'react-bootstrap';
-import {useState} from 'react';
+import {Col, Row, Dropdown, Button} from 'react-bootstrap';
+import {useState, useRef} from 'react';
 
 
 
 export default function LabelMaker()
 {
   const [productName, setProductName] = useState('Product Name');
-  const [destination, setDestination] = useState('Destination')
+  const [destination, setDestination] = useState('Destination');
 
-
-
+  
     return(
     <>
       <h5>Printable Section</h5>
-      <section className='border border-5 border-black m-5 p-auto'>
+      <section id='printedLabel' className='border border-5 border-black m-5 p-auto'>
         <div id='customerInfoSection' className='border border-2 border-black m-3 p-4'>
           <h1>Product.name</h1>
           <p id='productIngredientListSection'>Product.ingredients</p>
@@ -55,7 +54,18 @@ export default function LabelMaker()
             <Dropdown.Item href='set on on click calls to set the value of productName onClick(setProductName(New Product))'>Product 1</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
+
+                <h3>Select a wholesaler:</h3>
+        <Dropdown>
+          <Dropdown.Toggle variant='success' id='productMenu'>
+            Select a wholesaler
+          </Dropdown.Toggle>
+          <Dropdown.Menu>
+            <Dropdown.Item href='set on on click calls to set the value of productName onClick(setProductName(New Product))'>Wholesaler 1</Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
       </section>
+      <Button variant='secondary'>Print Labels</Button>
     </>
     )
 }
