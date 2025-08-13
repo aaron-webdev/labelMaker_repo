@@ -7,6 +7,34 @@ export default function LabelMaker()
 {
   const [productName, setProductName] = useState('Product Name');
   const [destination, setDestination] = useState('Destination');
+  const productList = {
+    'SOURDOUGH': {
+      ingredients: 'WHEAT FLOUR, RYE FLOUR, SALT, WATER' ,
+      tips: 'TIP: SLICE YOUR BREAD BEFORE FREEZING IT SO YOU CAN REHEAT IT BY THE SLICE- FIRST TOAST WILL REFRESH YOUR BREAD, SECOND TOAST WILL TOAST YOUR BREAD',
+      disclaimer: 'NO PRESERVATIVES- USE OR FREEZE WITHIN 5 DAYS FOR BEST FRESHNESS',
+      shelfLife: 5,
+    },
+    'CHEDDAR JALAPENO SOURDOUGH': {
+      ingredients: 'WHEAT FLOUR, RYE FLOUR, SALT, WATER, CHEDDAR, JALAPENO' ,
+      tips: 'TIP: SLICE YOUR BREAD BEFORE FREEZING IT SO YOU CAN REHEAT IT BY THE SLICE- FIRST TOAST WILL REFRESH YOUR BREAD, SECOND TOAST WILL TOAST YOUR BREAD',
+      disclaimer: 'NO PRESERVATIVES- USE OR FREEZE WITHIN 5 DAYS FOR BEST FRESHNESS',
+      shelfLife: 5,
+    }
+    'name': {
+      ingredients: '' ,
+      tips: '',
+      disclaimer: '',
+      shelfLife: 5,
+    }
+  };
+  /*
+    'name': {
+      ingredients: '' ,
+      tips: '',
+      disclaimer: '',
+      shelfLife: 5,
+    }
+  */
 
   
     return(
@@ -51,7 +79,7 @@ export default function LabelMaker()
             Select a product
           </Dropdown.Toggle>
           <Dropdown.Menu>
-            <Dropdown.Item href='set on on click calls to set the value of productName onClick(setProductName(New Product))'>Product 1</Dropdown.Item>
+            <Dropdown.Item>Product 1</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
 
