@@ -19,21 +19,75 @@ export default function LabelMaker()
       tips: 'TIP: SLICE YOUR BREAD BEFORE FREEZING IT SO YOU CAN REHEAT IT BY THE SLICE- FIRST TOAST WILL REFRESH YOUR BREAD, SECOND TOAST WILL TOAST YOUR BREAD',
       disclaimer: 'NO PRESERVATIVES- USE OR FREEZE WITHIN 5 DAYS FOR BEST FRESHNESS',
       shelfLife: 5,
-    }
-    'name': {
-      ingredients: '' ,
-      tips: '',
-      disclaimer: '',
+    },
+    'GARLIC HERB SOURDOUGH': {
+      ingredients: 'WHEAT FLOUR, RYE FLOUR, SALT, WATER, GARLIC, HERB DE PROVENCE' ,
+      tips: 'TIP: SLICE YOUR BREAD BEFORE FREEZING IT SO YOU CAN REHEAT IT BY THE SLICE- FIRST TOAST WILL REFRESH YOUR BREAD, SECOND TOAST WILL TOAST YOUR BREAD',
+      disclaimer: 'NO PRESERVATIVES- USE OR FREEZE WITHIN 5 DAYS FOR BEST FRESHNESS',
       shelfLife: 5,
-    }
+    },
+    'CRANBERRY ROSEMARY SOURDOUGH': {
+      ingredients: 'WHEAT FLOUR, RYE FLOUR, SALT, WATER, CRANBERRY, ROSEMARY' ,
+      tips: 'TIP: SLICE YOUR BREAD BEFORE FREEZING IT SO YOU CAN REHEAT IT BY THE SLICE- FIRST TOAST WILL REFRESH YOUR BREAD, SECOND TOAST WILL TOAST YOUR BREAD',
+      disclaimer: 'NO PRESERVATIVES- USE OR FREEZE WITHIN 5 DAYS FOR BEST FRESHNESS',
+      shelfLife: 5,
+    },
+    'RYE SOURDOUGH': {
+      ingredients: 'WHEAT FLOUR, RYE FLOUR, SALT, WATER, CARAWAY SEEDS' ,
+      tips: 'TIP: SLICE YOUR BREAD BEFORE FREEZING IT SO YOU CAN REHEAT IT BY THE SLICE- FIRST TOAST WILL REFRESH YOUR BREAD, SECOND TOAST WILL TOAST YOUR BREAD',
+      disclaimer: 'NO PRESERVATIVES- USE OR FREEZE WITHIN 5 DAYS FOR BEST FRESHNESS',
+      shelfLife: 5,
+    },
+    'HONEY OAT': {
+      ingredients: 'WHEAT FLOUR, WATER, YEAST, HONEY, MILK, OAT, SALT, BUTTER' ,
+      tips: 'TIP: SLICE YOUR BREAD BEFORE FREEZING IT SO YOU CAN REHEAT IT BY THE SLICE- FIRST TOAST WILL REFRESH YOUR BREAD, SECOND TOAST WILL TOAST YOUR BREAD',
+      disclaimer: 'NO PRESERVATIVES- USE OR FREEZE WITHIN 5 DAYS FOR BEST FRESHNESS',
+      shelfLife: 5,
+    },
+    'WHOLE WHEAT': {
+      ingredients: 'WHEAT FLOUR, SALT, WATER, SUGAR, YEAST, BUTTER' ,
+      tips: 'TIP: SLICE YOUR BREAD BEFORE FREEZING IT SO YOU CAN REHEAT IT BY THE SLICE- FIRST TOAST WILL REFRESH YOUR BREAD, SECOND TOAST WILL TOAST YOUR BREAD',
+      disclaimer: 'NO PRESERVATIVES- USE OR FREEZE WITHIN 5 DAYS FOR BEST FRESHNESS',
+      shelfLife: 5,
+    },
+    'WHITE WHEAT': {
+      ingredients: 'WHEAT FLOUR, SALT, WATER, SUGAR, YEAST, CANOLA OIL' ,
+      tips: 'TIP: SLICE YOUR BREAD BEFORE FREEZING IT SO YOU CAN REHEAT IT BY THE SLICE- FIRST TOAST WILL REFRESH YOUR BREAD, SECOND TOAST WILL TOAST YOUR BREAD',
+      disclaimer: 'NO PRESERVATIVES- USE OR FREEZE WITHIN 5 DAYS FOR BEST FRESHNESS',
+      shelfLife: 5,
+    },
+    'BUTTERMILK BISCUIT': {
+      ingredients: 'WHEAT FLOUR, BUTTER, BAKING POWDER, SALT, BUTTERMILK, EGG',
+      tips: '',
+      disclaimer: 'NO PRESERVATIVES EVER',
+      shelfLife: 5,
+    },
+    'BIG BOI RICH CHOCOLATE CHIP': {
+      ingredients: 'semi-sweet chocolate chips (sugar, chocolate liquor, milkfat, cocoa butter, soy lecithin), brown sugar, butter, all-purpose flour (unbleached hard red wheat flour, malted barley flour), sugar, eggs, baking soda, salt, cornstarch' ,
+      tips: '',
+      disclaimer: 'CONTAINS: wheat, soy, dairy, egg',
+      shelfLife: 7,
+    },
+    'BIG BOI CHOCOLATE WALNUT CHUNK': {
+      ingredients: 'semi-sweet chocolate chips (sugar, chocolate liquor, milkfat, cocoa butter, soy lecithin), brown sugar, butter, all-purpose flour (unbleached hard red wheat flour, malted barley flour), walnuts, sugar, eggs, baking soda, salt, cornstarch' ,
+      tips: '',
+      disclaimer: 'CONTAINS: wheat, soy, dairy, egg',
+      shelfLife: 7,
+    },
+    'BIG BOI DOUBLE CHOCOLATE CHUNK': {
+      ingredients: 'semi-sweet chocolate chips (sugar, chocolate liquor, milkfat, cocoa butter, soy lecithin), brown sugar, butter, all-purpose flour (unbleached hard red wheat flour, malted barley flour), sugar, eggs, cocoa powder, baking soda, salt, cornstarch' ,
+      tips: '',
+      disclaimer: 'CONTAINS: wheat, soy, dairy, egg',
+      shelfLife: 0,
+    },
   };
   /*
     'name': {
       ingredients: '' ,
       tips: '',
       disclaimer: '',
-      shelfLife: 5,
-    }
+      shelfLife: 0,
+    },
   */
 
   
