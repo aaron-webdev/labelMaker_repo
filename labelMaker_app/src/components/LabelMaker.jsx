@@ -11,6 +11,7 @@ export default function LabelMaker()
   
     return(
     <>
+    
       <h5>Printable Section</h5>
       <section id='printedLabel' className='border border-5 border-black m-5 p-auto'>
         <div id='customerInfoSection' className='border border-2 border-black m-3 p-4'>
